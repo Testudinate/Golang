@@ -3,3 +3,7 @@ https://startpack.ru/category/data-extraction
 https://red-circule.com/courses/601
 
 https://habr.com/company/mailru/blog/327966/
+
+Пишем нейросеть на Go с нуля
+
+https://tproger.ru/translations/neural-net-from-scratch-in-go/
