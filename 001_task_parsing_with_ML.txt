@@ -7,3 +7,6 @@ https://habr.com/company/mailru/blog/327966/
 Пишем нейросеть на Go с нуля
 
 https://tproger.ru/translations/neural-net-from-scratch-in-go/
+
+!!!
+https://www.mjhall.org/golang-data-science-libraries/
