@@ -3,3 +3,12 @@
 "slice" data type like "array" on GO but not equal :-)
 
 var buf = make ([]int,0,10) //It is benefit for fast initialisation on GO!
+
+//if you need to add "slice 2" to "slice 1" then using this constructions
+
+var buf[]int
+buf = append(buf,9,10)
+buf = append(buf,12) //capacity = 4, but len(3)
+
+otherBuf = make([]int,3)
+buf = append(buf,otherBuf)
