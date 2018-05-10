@@ -1,0 +1,5 @@
+//for example 
+
+"slice" data type like "array" on GO but not equal :-)
+
+var buf = make ([]int,0,10) //It is benefit for fast initialisation on GO!
