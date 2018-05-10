@@ -1,0 +1,3 @@
+// len(str) - it is length of string in bytes, not count of symbols !!!
+
+// utf8.RunCountInString - it is length of string in symbols
