@@ -1,0 +1,14 @@
+//we’d like our Go programs to intelligently handle Unix signals
+
+Signal (IPC)
+
+https://en.wikipedia.org/wiki/Signal_(IPC)
+
+Typing certain key combinations at the controlling terminal of a running process causes the system to send it certain signals:
+
+    Ctrl-C (in older Unixes, DEL) sends an INT signal ("interrupt", SIGINT); by default, this causes the process to terminate.
+    Ctrl-Z sends a TSTP signal ("terminal stop", SIGTSTP); by default, this causes the process to suspend execution.
+    Ctrl-\ sends a QUIT signal (SIGQUIT); by default, this causes the process to terminate and dump core.
+    Ctrl-T (not supported on all UNIXes) sends an INFO signal (SIGINFO); by default, and if supported by the command, this causes the operating system to show information about the running command.
+
+signal.Notify registers the given channel to receive notifications of the specified signals.
