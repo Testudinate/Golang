@@ -1,0 +1,1 @@
+//If you want to format code on GO then using command gofmt -w <name_your_go_program> 
