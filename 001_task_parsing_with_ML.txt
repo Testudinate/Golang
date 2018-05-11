@@ -11,3 +11,6 @@ https://tproger.ru/translations/neural-net-from-scratch-in-go/
 !!!
 https://www.mjhall.org/golang-data-science-libraries/
 https://www.coursera.org/learn/golang-webservices-1/home/week/1
+
+it need to check 
+https://habr.com/post/346542/
