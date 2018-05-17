@@ -1,0 +1,10 @@
+> db.urls.find({_id: ObjectId("5a9a852c1ae307db24177208")});
+
+> db.getCollectionNames();
+[ "*", "*", "urls", "*" ]
+
+> db.urls.findOne();
+
+> db.reports.findOne();
+
+> db.users.find()
