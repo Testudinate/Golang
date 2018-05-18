@@ -1,5 +1,9 @@
 https://t.me/joinchat/F8aHF0f5foASl7qUaxAzRg
 
+This page need to watch: 
+
+https://www.youtube.com/watch?v=gju-bml4kdw
+
 У нашего курса есть чат. Там вас ждет живое общение с другими слушателями, быстрые ответы и активные обсуждения по тематике курса.
 
     Telegram: https://t.me/joinchat/F8aHF0f5foASl7qUaxAzRg
