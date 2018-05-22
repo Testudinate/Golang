@@ -5,7 +5,33 @@ How use migration on MongoDB
    ksa@ksa-All-Series ~/go/src $ cd migration/mongo
 3/ $ migrate-mongo init
 Initialization successful. Please edit the generated config.js file
+
+4/ nano ./config.js
+
+// TODO Change (or review) the url to your MongoDB:
+// TODO Change this to your database name:
 ---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 http://isizov.ru/migratsii-mongodb/
 ~/go/src/spider/client/crawler (developer*) $ npm i mongo-migrate
 
