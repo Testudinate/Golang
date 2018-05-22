@@ -1,5 +1,12 @@
-http://isizov.ru/migratsii-mongodb/
+How use migration on MongoDB
 
+1/ npm install -g migrate-mongo (via root)  {https://github.com/seppevs/migrate-mongo}
+2/ ksa@ksa-All-Series ~/go/src $ mkdir -p migration/mongo/
+   ksa@ksa-All-Series ~/go/src $ cd migration/mongo
+3/ $ migrate-mongo init
+Initialization successful. Please edit the generated config.js file
+---------------------------------------------------------------------------------------------------------------------
+http://isizov.ru/migratsii-mongodb/
 ~/go/src/spider/client/crawler (developer*) $ npm i mongo-migrate
 
 npm WARN ajv-keywords@3.2.0 requires a peer of ajv@^6.0.0 but none is installed. 
@@ -11,3 +18,5 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 added 14 packages in 5.1s
 ksa@ksa-All-Series ~/go/src/spider/client/crawler (developer*) $ nano ./package.json 
 ksa@ksa-All-Series ~/go/src/spider/client/crawler (developer*) $ 
+
+
