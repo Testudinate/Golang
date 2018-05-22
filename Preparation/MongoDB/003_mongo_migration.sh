@@ -10,6 +10,11 @@ Initialization successful. Please edit the generated config.js file
 
 // TODO Change (or review) the url to your MongoDB:
 // TODO Change this to your database name:
+
+5/ migrate-mongo create list_update 
+(node:4921) ExperimentalWarning: The fs.promises API is experimental
+Created: migrations/20180522135522-list_update.js
+
 ---------------------------------------------------------------------------------------------------------------------
 
 
