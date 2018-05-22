@@ -1,1 +1,9 @@
  sudo apt-get install webpack
+
+node -v            v8.10.0
+
+npm init
+
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+
+npm install -g vue-cli
