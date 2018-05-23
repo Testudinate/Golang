@@ -5,3 +5,7 @@ simple neural network python in tensorflow for text analysis
 
 
 https://github.com/dennybritz/cnn-text-classification-tf/blob/master/data_helpers.py
+
+
+example 
+http://nlp.seas.harvard.edu/code/
