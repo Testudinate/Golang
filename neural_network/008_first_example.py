@@ -21,3 +21,23 @@ with open('data.json') as json_data:
 # get a list of all categories to train for
 categories = list(data.keys())
 words = []
+# a list of tuples with words in the sentence and category name 
+docs = []
+ 
+for each_category in data.keys():
+    for each_sentence in data[each_category]: 
+        # remove any punctuation from the sentence
+    each_sentence = remove_punctuation(each_sentence)
+    print each_sentence
+        # extract words from each sentence and append to the word list
+        w = nltk.word_tokenize(each_sentence)
+    print ("tokenized words: ", w)
+        words.extend(w)
+        docs.append((w, each_category))
+ 
+# stem and lower each word and remove duplicates
+words = [stemmer.stem(w.lower()) for w in words]
+words = sorted(list(set(words)))
+ 
+print (words)
+print (docs)
