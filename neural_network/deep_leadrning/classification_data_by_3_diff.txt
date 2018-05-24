@@ -1,0 +1,9 @@
+https://hackernoon.com/finding-the-genre-of-a-song-with-deep-learning-da8f59a61194
+
+Here’s a general overview of what we will do:
+
+    Extract a simplified representation of each song in the library
+    Train a deep neural network to classify the songs
+    Use the classifier to fill in the mising genres of our library
+    
+    3 but it may be with subset for each one 
